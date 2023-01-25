@@ -1,0 +1,130 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+}
+body{
+    padding: 80px 200px;
+
+}
+
+@media(max-width:768px){
+    body{
+        padding: 0;
+        
+    }
+    .nav{
+        align-items: center;
+    }
+   
+    .social .whatsapp , .Facebook , .Tweeter{
+        align-content: center;
+        
+        
+    }
+
+}
+@media(min-width:769px){
+    .nave{
+        display: flex;
+        
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+    
+    
+    /* #thanks .nav .nav-left div{
+        display: block;
+    } */
+
+:root{
+    --mainColor: #5B8E19;
+}
+p{
+    margin-bottom: 0 !important;
+}
+.header{
+    padding: 50px 140px;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+.new_padding {
+    padding: 0;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+
+#thanks .paper {
+    background: rgba(91, 142, 25, 0.15);
+border-radius: 30px;
+border: none;
+color: var(--mainColor);
+padding: 10px 40px;
+font-weight: bold;
+}
+
+#thanks button{
+    text-align: center;
+}
+
+
+
+#thanks .nav img {
+    padding: 0 10px;
+}
+
+#thanks .content{
+    text-align: center;
+}
+
+#thanks .social button{
+   margin: 0 10px ;
+}
+#thanks .social .whatsapp {
+    background-color:  #4CB050; 
+       color: white;
+    border-radius: 33px;
+    border: none;
+
+}
+#thanks .social img .whatsapp {
+    background-color:  #4CB050;
+   
+}
+    #thanks .social .Facebook {
+        background-color:  #2273E6; 
+           color: white;
+        border-radius: 33px;
+        border: none;
+    
+    }
+    #thanks .social img .Facebook {
+        background-color:  #2273E6;
+    }
+
+
+        #thanks .social .Tweeter {
+            background-color:  #189CEF; 
+               color: white;
+            border-radius: 33px;
+            border: none;
+        
+        
+        }
+        #thanks .social img .Tweeter {
+            background-color:  #189CEF;}
+
+
+            #thanks .save {
+                background-color: var(--mainColor);
+                color: white;
+            }

@@ -5,6 +5,55 @@
 :root{
     --mainColor: #5B8E19;
 }
+
+@media (min-width: 769px) {
+
+    .new_padding {
+        padding: 50px 140px;
+    }
+}
+
+@media (max-width: 768px) {
+/* 
+    #search-nav{
+        position: relative;
+    }
+    .search-form{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    } */
+
+    #search-nav .total-price{
+        display: none;
+
+    }
+    #search-nav .imag-heart{
+        display: none;
+    }
+    /* #search-nav .discount{
+        position: relative;
+    }
+    #search-nav .discount-price img {
+        position: absolute;
+        left: 63px;
+        top: 0;
+    }
+
+    #search-nav .discount-price .search{
+        position: absolute;
+        top: 0;
+        left: 35px;
+    } */
+   
+    #page-title{
+        margin: 20px 15px 20px 0;
+    }
+
+    
+    }
+
 p{
     margin-bottom: 0 !important;
 }
@@ -19,9 +68,6 @@ header div#top-nav{
     color: var(--mainColor);
 }
 
-.new_padding {
-    padding: 50px 140px;
-}
  .line{
     flex-grow: 1;
     height: 3px;
@@ -148,43 +194,6 @@ header div#top-nav{
 #search-nav .total-price{
     color: var(--mainColor);
 }
-
-@media (max-width: 500px) {
-
-    #search-nav{
-        position: relative;
-    }
-    .search-form{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-    }
-
-    #search-nav .total-price{
-        display: none;
-
-    }
-    #search-nav .imag-heart{
-        display: none;
-    }
-    #search-nav .discount{
-        position: relative;
-    }
-    #search-nav .discount-price img {
-        position: absolute;
-        left: 63px;
-        top: 0;
-    }
-
-    #search-nav .discount-price .search{
-        position: absolute;
-        top: 0;
-        left: 35px;
-    }
-
-    
-    }
 
 
 #search-nav .discount-price{

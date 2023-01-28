@@ -66,8 +66,15 @@ header div#top-nav{
     color: var(--mainColor);
 }
 
-@media (max-width: 500px) {
+@media (min-width: 769px) {
+    
+#product_details .acount{
+    margin-right: 100px;
+    }
+}
 
+@media (max-width: 768px) {
+/* 
     #search-nav{
         position: relative;
     }
@@ -76,7 +83,7 @@ header div#top-nav{
         top: 100%;
         left: 0;
         width: 100%;
-    }
+    } */
 
     #search-nav .total-price{
         display: none;
@@ -85,7 +92,7 @@ header div#top-nav{
     #search-nav .imag-heart{
         display: none;
     }
-    #search-nav .discount{
+    /* #search-nav .discount{
         position: relative;
     }
     #search-nav .discount-price img {
@@ -98,7 +105,7 @@ header div#top-nav{
         position: absolute;
         top: 0;
         left: 35px;
-    }
+    } */
 
     
     }
@@ -336,12 +343,6 @@ color: #333333;
     left: 190px;
 
 
-}
-#product_details .new_padding {
-    padding: 50px 0px;
-}
-#product_details .acount{
-margin-right: 100px;
 }
 
 #product_details .product-title a{

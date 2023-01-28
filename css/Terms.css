@@ -2,6 +2,12 @@
     box-sizing: border-box;
     margin: 0 ;
 }
+@media (min-width:768px){
+    
+.new_padding {
+    padding: 50px 140px;
+}
+}
 :root{
     --mainColor: #5B8E19;
 }
@@ -23,9 +29,6 @@ header div#top-nav{
     color: #4F4F4F;
 }
 
-.new_padding {
-    padding: 50px 140px;
-}
  .line{
     flex-grow: 1;
     height: 3px;
@@ -153,9 +156,9 @@ header div#top-nav{
     color: var(--mainColor);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 
-    #search-nav{
+    /* #search-nav{
         position: relative;
     }
     .search-form{
@@ -163,7 +166,7 @@ header div#top-nav{
         top: 100%;
         left: 0;
         width: 100%;
-    }
+    } */
 
 
     #search-nav .total-price{
@@ -173,7 +176,7 @@ header div#top-nav{
     #search-nav .imag-heart{
         display: none;
     }
-    #search-nav .discount{
+    /* #search-nav .discount{
         position: relative;
     }
     #search-nav .discount-price img {
@@ -186,9 +189,11 @@ header div#top-nav{
         position: absolute;
         top: 0;
         left: 35px;
-    }
+    } */
 
-    
+    #page-title{
+        margin: 30px 0 !important;
+    }
 
     
     }

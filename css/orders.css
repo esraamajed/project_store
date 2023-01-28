@@ -153,9 +153,9 @@ header div#top-nav{
     color: var(--mainColor);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 769px) {
 
-    #search-nav{
+    /* #search-nav{
         position: relative;
     }
     .search-form{
@@ -187,7 +187,12 @@ header div#top-nav{
         left: 35px;
     }
 
-    
+     */
+
+
+     .new_padding{
+        padding: 0 !important;
+     }
     }
 
 

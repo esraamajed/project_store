@@ -261,6 +261,9 @@ header div#top-nav{
         top: 0;
         left: 35px;
     }
+    .new_padding{
+        padding: 81px 20px;
+    }
 
     
     }

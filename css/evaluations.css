@@ -8,7 +8,12 @@
 p{
     margin-bottom: 0 !important;
 }
-
+@media(min-width:769px){
+    
+.new_padding {
+    padding: 50px 140px;
+}
+}
 header div#top-nav{
     padding: 12px 0 ;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
@@ -23,9 +28,6 @@ header div#top-nav{
     color: #4F4F4F;
 }
 
-.new_padding {
-    padding: 50px 140px;
-}
  .line{
     flex-grow: 1;
     height: 3px;
@@ -153,8 +155,8 @@ header div#top-nav{
     color: var(--mainColor);
 }
 
-@media (max-width: 500px) {
-
+@media (max-width: 768px) {
+/* 
     #search-nav{
         position: relative;
     }
@@ -163,7 +165,7 @@ header div#top-nav{
         top: 100%;
         left: 0;
         width: 100%;
-    }
+    } */
 
     #search-nav .total-price{
         display: none;
@@ -172,7 +174,7 @@ header div#top-nav{
     #search-nav .imag-heart{
         display: none;
     }
-    #search-nav .discount{
+    /* #search-nav .discount{
         position: relative;
     }
     #search-nav .discount-price img {
@@ -185,8 +187,22 @@ header div#top-nav{
         position: absolute;
         top: 0;
         left: 35px;
+    } */
+   
+    .shoping-cart{
+        padding-top: 0 !important;
     }
+    #cart .detail {
+         visibility: hidden;
+    }
+    #cart .header{
+        text-align: center;
+       align-items: center;
+       padding: 0 !important;
+       margin: 30px 0 0 0 !important;
 
+       
+    } 
     
     }
 
@@ -194,6 +210,7 @@ header div#top-nav{
 #search-nav .discount-price{
     position: relative;
 }
+
 
 #search-nav .discount {
     position: absolute;
@@ -569,26 +586,34 @@ footer li{
         color: var(--mainColor);
     }
 
-#cart .detail p {
-    padding-left: 30px;
-}
 
-
-#cart .detail span {
-    width: 26px;
-    height: 26px;
+#cart .point {
+    background: #EB5757;
     border-radius: 50%;
-    background: #EB5757;  
-    color: white;     
-     text-align: center;
-        margin-right: -31px;
-        margin-left: 20px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    right: 182px;
+    top: 20px;
+
 }
+
 
 #cart .detail img {
     background: #E0E0E0;
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    padding: 5px;
 }
 
+
+
+
+    
+
+
+    

@@ -7,6 +7,8 @@
 .new_padding {
     padding: 0px 140px;
 }
+
+
 }
 :root{
     --mainColor: #5B8E19;
@@ -189,9 +191,20 @@ header div#top-nav{
         top: 0;
         left: 35px;
     }
+   
+    #cart .details{
+        margin: 0 !important;
+    }
+    #cart .head {
+        visibility: hidden;
+    }
+    #cart .start {
+        visibility: hidden;
+    }
 
     
     }
+
 
 
 #search-nav .discount-price{

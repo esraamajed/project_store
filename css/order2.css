@@ -22,10 +22,6 @@ header div#top-nav{
 #page-title .acount{
     color: #4F4F4F;
 }
-
-.new_padding {
-    padding: 50px 140px;
-}
  .line{
     flex-grow: 1;
     height: 3px;
@@ -153,16 +149,32 @@ header div#top-nav{
     color: var(--mainColor);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
     
-#cart .time {
-    text-align: center;
+
+.new_padding {
+    padding: 50px 140px;
 }
+    
+
 }
 
 
-@media (max-width: 500px) {
-
+@media (max-width: 768px) {
+    #cart .header{
+        text-align: center;
+       align-items: center;
+        margin: 0 !important;
+       
+    } 
+    #cart .time {
+       display: flex;
+        
+    }
+    #cart .ends{
+        text-align: end;
+    }
+/* 
     #search-nav{
         position: relative;
     }
@@ -171,7 +183,7 @@ header div#top-nav{
         top: 100%;
         left: 0;
         width: 100%;
-    }
+    } */
 
     #search-nav .total-price{
         display: none;
@@ -180,7 +192,7 @@ header div#top-nav{
     #search-nav .imag-heart{
         display: none;
     }
-    #search-nav .discount{
+    /* #search-nav .discount{
         position: relative;
     }
     #search-nav .discount-price img {
@@ -193,6 +205,9 @@ header div#top-nav{
         position: absolute;
         top: 0;
         left: 35px;
+    } */
+    #cart .cap {
+        visibility: hidden;
     }
 
     }

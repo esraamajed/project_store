@@ -30,9 +30,29 @@ header div#top-nav{
  }
 
 
-  
-    
-
+ #payment-way #visa{
+     display: none;
+ }
+ #payment-way #visa.active-pay{
+     display: block;
+ } 
+ .payment .row .content {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    padding: 0 !important;
+}
+.payment .row .content label{
+    position: relative;
+    padding: 10px 0;
+}
+.payment .row .content label span{
+    display: none;
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
  .img-detail-container-1 .img-container img {
     background: var(--mainColor);
     border-radius: 4px;
@@ -440,7 +460,10 @@ margin: 20px 0;
     border: 2px solid var(--mainColor);
 
 }
+.checkout-form .payment input[type='radio']:checked + label span {
+    display: block;
 
+}
 .checkout-form .btn {
     background-color: var(--mainColor);
     color: white;

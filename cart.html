@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-DOXMLfHhQkvFFp+rWTZwVlPVqdIhpDVYT9csOnHSgWQWPX0v5MCGtjCJbY6ERspU" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cart.css">
     <title>سلة المشتريات</title>
 </head>
@@ -26,11 +26,13 @@
                          </div>
                     </div>
                     <div class="sign">
-                        <a href="https://">
+                       
                             <img src="images/user.svg" alt="">
 
-                        </a>
+                 
                         <span>تسجيل الدخول </span>
+
+
                     </div>
 
                 </div>
@@ -38,70 +40,152 @@
 
         </div>
 
-        <div id="search-nav">
+        <div id="search-nav" class="py-0">
             <div class="container">
-                <div class="d-flex align-items-center justify-content-between search-form">
+                <div class="d-flex align-items-center justify-content-between ">
                     <div>
-                        <a href="index.html"> <img src="images/logo.png " height=60px alt="">
-                        </a>
+                        <img src="images/logo.png" alt="" height="85px" >
                     </div>
     
-                    <div class="flex-grow-1 px-0 px-md-4 d-md-block d-md-block   ">
+                    <div class="flex-grow-1 px-0 px-md-4 d-md-block d-md-block    ">
                         <form action="">
                            <div class="search-group d-none d-md-block">
                             <input type="text"   class="form-control " placeholder="أبحث عن منتجك  "  class="w-100">
                             <span class="search"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <button type="submit">بحث</button>
+                            <button type="submit" >بحث</button>
+                            <img src="images/points3.svg " class="d-lg-none" alt="">
                            </div>
                         </form>
                     </div>
     
-                    <div class="d-flex">
+                    <div class=" d-flex" >
                         <a href="#"><img src="images/heart.svg" class="imag-heart" alt=""></a>
+                        
                         <div class="discount-price" >
                             <span class="discount">3</span>
-                            <span class="search d-flex d-md-none"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <span><img src="images/3point.svg d-flex d-md-none" alt=""></span>
+                       
                             <a href="#"><img src="images/lock.svg" alt=""></a>
                             <span class="total-price">25  ر.س</span>
+                            
                         </div>
+                        <div class="point-serch">
+                            <span class="serch">
+                                <img src="images/search3.svg" alt="">
+                            </span>
+                            
+                            <span class="points"><img src="images/3point.svg  " alt=""></span>
+                         </div>
+
                     </div>
                 </div>
                
             </div>
         </div>
-
-        <div id="navbar">
-            <div class="container bg-light " >
-                <ul class="content d-flex justify-content-between align-items-center">
-                    <li><a href="#" class="active">جميع التصنيفات</a></li>
-                    <ul class="drap d-none" >
-                            <li><a href="#">بقالة</a></li>
-                            <li><a href="#">المجمدات</a></li>
-                            <li><a href="#">المشروبات و العصائر</a></li>
-                            <li><a href="#">المكملات الغذائية وتقوية المناعة</a></li>
-                            <li><a href="#">الأجبان والحلب والبيض</a></li>
-                            <li><a href="#">المنظفات المنزالية</a> </li>
-
-
-                        </ul>
-                    </li>
-                    <li><a href="#">بقالة</a></li>
-                      <li><a href="#">المجمدات</a></li>
-                    <li><a href="#">المشروبات و العصائر</a></li>
-
-                    <li><a href="#">المكملات الغذائية وتقوية المناعة</a></li>
-                    <li><a href="الإفطار و السناك و البذور"></a></li>
-                    <li><a href="#">الأجبان والحلب والبيض</a></li>
-                    <li><a href="#">المنظفات المنزالية</a> </li>
-
-                    <li><a href="#">طعام الأطفال </a></li>
-                    <li><a href="#">الخضروات و الفواكهه العضوية </a></li>
-
-
-                </ul>
+        <div class="sidebar d-lg-none d-none ">
+            <div class="d-flex justify-content-end mb-3 ">
+                <img class="exit2 " src="images/exit.svg" alt="">
+                </div>
+            <div class="d-flex ">
+                <img src="images/g14.svg" alt="">
+                <p class="px-3 text-dark">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد </p>
             </div>
+            <div class="mt-4 mb-3 px-2">
+                <img src="images/Vector.svg" alt="">
 
+                <span class="text-dark">example@gmail.com</span>
+            </div>
+           <div class="px-2">
+            <img src="images/phone.svg" alt="">
+            <span class="text-dark"> +96659721649</span>
+           </div>
+           <ul class="d-flex icon w-100 justify-content-center ">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+
+         </ul>
+
+        </div>
+        <div class="serch-nav py-0 d-none " id="search-nav" >
+            <div class="container">
+                <div class="">
+                   
+                    <div class=" ">
+                        <form action="">
+                           <div class="search-group d-block d-lg-none">
+                            <input type="text"   class="form-control " placeholder="أبحث عن منتجك  "  class="w-100">
+                            <span class="search"><i class="fa-solid fa-magnifying-glass"></i></span>
+                           </div>
+                        </form>
+                    </div>
+    
+                    
+                </div>
+               
+            </div>
+        </div>
+        
+        <div id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container p-0">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 p-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle dropdown-toggle1 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                              جميع  التصنيفات
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">2</a></li>
+                              <li><a class="dropdown-item" href="#"> 1</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">5</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown text-black" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                              بقالة
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">المجمدات</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">المشروبات والعصائر</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">المكملات الغذائية</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">الافطار والسناك</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">الاجبان والحليب</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">المنظفات المنزلية</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">طعام الاطفال</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">الخضروات والفواكه</a>
+                      </li>
+                      
+                     
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
 
@@ -179,11 +263,11 @@
     
                         </div>
                         <div class="col-md-2">
-                            <div class="btn-group" role="group" aria-label="Basic outlined example">
-                                <button type="button" class="increas btn btn-outline-secondary">+</button>
-                                <span class="span-increas btn btn-outline-secondary">5</span>
-                                <button type="button" class="mins btn btn-outline-secondary">-</button>
-                              </div>        
+                            <div id="main" class="btn-group px-3" role="group" aria-label="Basic outlined example">
+                                <button id="increment" type="button" class="btn btn-outline-secondary">+</button>
+                                <span  id="displayCounter" class="btn btn-outline-secondary">0 </span>
+                                <button id="decrement" type="button" class="btn btn-outline-secondary">-</button>
+                              </div>       
                         </div>
                         <div class="col-md-2">
                             <span>100 ر.س</span>
@@ -207,10 +291,10 @@
     
                         </div>
                         <div class="col-md-2">
-                            <div class="btn-group" role="group" aria-label="Basic outlined example">
-                                <button type="button" class="increas btn btn-outline-secondary">+</button>
-                                <span class="span-increas btn btn-outline-secondary">5</span>
-                                <button type="button" class="mins btn btn-outline-secondary">-</button>
+                            <div id="main" class="btn-group px-3" role="group" aria-label="Basic outlined example">
+                                <button id="increment2" type="button" class="btn btn-outline-secondary">+</button>
+                                <span  id="displayCounter2" class="btn btn-outline-secondary">0 </span>
+                                <button id="decrement2" type="button" class="btn btn-outline-secondary">-</button>
                               </div>        
                         </div>
                         <div class="col-md-2">
@@ -240,9 +324,13 @@
                             <p> مجموع المنتجات </p>
                             <span>200 ر.س</span>
                         </div>
-                        <div class="progress-bar mt-5"></div>
-                        <div class="progress"></div>
-                        <img src="images/cars.svg" alt="">
+                        <div class="Prog d-flex justify-content-between align-items-center">
+                            <div class="progress-bar mt-5">
+                                <div class="progress"></div>
+                            </div>
+                            <img src="images/cars.svg" alt="">
+                            
+                        </div>
                     </div>
                     <span class="mb-3">احصل على شحن مجاني عند إضافة 479 ر.س للسلة</span>
                     <button type="submit" class="submit btn  w-100 my-4"><a href="">اتمام الطلب</a></button>
@@ -386,11 +474,11 @@
 
 
     <footer>
+
         <div class="container">
             <div class="row gx-0 gx-md-5 d-flex justify-content-between ">
                 <div class="col-12 col-md-6 col-lg-3  about">
-                    <a href="index.html"> <img src="images/logo.png " height=60px alt="">
-                    </a>
+                    <img src="images/logo.png " height=60px alt="">
                     <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، </p>
                     <ul class="icon">
                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -407,8 +495,8 @@
                         <li><a href="#">المعلبات</a></li>
                         <li><a href="#">القهوة والشاي</a></li>
                         <li><a href="#">العسل</a></li>
-
-
+    
+    
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
@@ -416,10 +504,10 @@
                     <ul class="p-0">
                         <li><a href="#">سياسة الاستبدال والارجاع</a></li>
                         <li><a href="#">سياسة الخصوصية</a></li>
-                        <li><a href="Terms.html">الشروط والاحكام</a></li>
+                        <li><a href="#">الشروط والاحكام</a></li>
                     
-
-
+    
+    
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
@@ -427,74 +515,158 @@
                     <ul class="p-0 ">
                         <li><a href="#"><img src="images/Vector.svg"  alt="">example@gmail.com</a></li>
                         <li><a href="#"><img src="images/phone.svg  " class="my-3"  alt="">+96659721649</a></li>
-
+    
                         <ul class="d-flex p-0  "  >
                            <li><img src="images/mada.svg" alt=""></li> 
                            <li><img src="images/mastercard.svg" alt=""></li> 
-
+    
                             <li><img src="images/visa.svg" alt=""></li>
-
+    
                         </ul>
                     </ul>
                 </div>
                 
-
+    
             </div>
-
+    
         </div>
+    
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!--mobile componants-->>
-    <div id="mobile-nav">
-        <div>
-            <a href="#">الرئيسية</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            <!--mobile componants-->
+        <div id="mobile-nav">
+            <div>
+                <a href="#">الرئيسية</a>
+            </div>
+            <div class="btn-products">
+                <a href="#" >فئات المنتجات</a>
+            </div>
+            <div class="btn-login">
+                <i class="fa-regular fa-user"></i>
+                <a href="#">تسجيل الدخول  </a>
+            </div>
+      
+      
+     
+      
+    
+    
         </div>
-        <div>
-            <a >فئات المنتجات</a>
+    
+        <div id="mobile-catrgories">
+            <ul>
+                <li><a href="#">جميع التصنيفات</a></li>
+                <li><a href="#">بقالة</a></li>
+                <li><a href="#">المجمدات</a></li>
+                <li><a href="#">المشروبات والعصائر</a></li>
+                <li><a href="#">المكملات الغذائية وتقوية المناعة</a></li>
+                <li><a href="#">الإفطار و السانك و البذوبر</a></li>
+    
+    
+    
+            </ul>
+           
         </div>
-        <div>
-            <a href="#">تسجيل الدخول</a>
+    
+    
+        <div class="login-form d-none" >    
+            <form action="/examples/actions/confirmation.php" method="post">
+                <div class="d-flex justify-content-end ">
+                    <img class="exit " src="images/exit.svg" alt="">
+                    </div>
+    
+                <div class="avatar">
+                    <img src="images/2user.svg" alt="">
+    
+                </div>
+                <h4 class="modal-title">تسجيل الدخول</h4>
+                <div class="form-group">
+                    <label for="" class="mb-2">  البريد الإلكتروني</label>
+    
+                    <input type="password" class="form-control" placeholder="أدخل عنوان بريدك الإلكرتوني " required="required">
+                </div>
+    
+                <div class="form-group">
+                    <label for="" class="mb-2"> كلمة المرور</label>
+    
+                    <input type="password" class="form-control" placeholder="أدخل  كلمة المرور " required="required">
+                </div>
+                <div class="form-group small clearfix">
+                    <label class="checkbox-inline"><input type="checkbox"> Remember me</label>
+                    <a href="#" class="forgot-link">?Forgot Password</a>
+                </div> 
+                <input type="submit" class="btn btn-primary btn-block btn-lg" value="Login">              
+            </form>			
+            <div class="text-center small">Don't have an account? <a href="#">Sign up</a></div>
         </div>
-    </div>
+    
+        <nav class="nav-mobile-categories show d-none">
+            <div class="container">
+                <div class="d-flex justify-content-end ">
+                <img class="exitnav " src="images/exit.svg" alt="">
+                </div>
+              <ul class="mobile-ul">
+                <li class="d-flex align-items-center justify-content-between"><a href="#">فئات المنتجات</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle dropdown-toggle1 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                      جميع  التصنيفات
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">بقالة</a></li>
+                      <li><a class="dropdown-item" href="#"> المشروبات والعصائر</a></li>
+                      <li><a class="dropdown-item" href="#">المكملات الغذائية وتقوية المناعة</a></li>
+                      <li><a class="dropdown-item" href="#">الاأجبان والحليب</a></li>
+                      <li><a class="dropdown-item" href="#">  المنظفات المنزالية</a></li>
+                      <li><a class="dropdown-item" href="#">المكملات الغذائية وتقوية المناعة</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown text-black" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                      بقالة
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">البهارات و التوابل</a></li>
+                      <li><a class="dropdown-item" href="#"> الزيوت والخل</a></li>
+                      <li><a class="dropdown-item" href="#"> الأرز والمكرونة و الدقيق </a></li> 
+                      <li><a class="dropdown-item" href="#"> العسل </a></li>
+                      <li><a class="dropdown-item" href="#"> القهوة والشاي </a></li>
+                      <li><a class="dropdown-item" href="#">   المعلبات  </a></li>
+                    </ul>
+                  </li>
+                <li><a href="#">المجمدات</a></li>
+                <li><a href="#">المشروبات والعصائر</a></li>
+                <li><a href="#">المكملات الغذائية وتقوية المناعة</a></li>
+                <li><a href="#">الإفطار و السانك و البذوبر</a></li>
+              </ul>
+            </div>
+            
+                
+        </nav>
 
-    <div id="mobile-catrgories">
-        <ul>
-            <li><a href="#">جميع التصنيفات</a></li>
-            <li><a href="#">بقالة</a></li>
-            <li><a href="#">المجمدات</a></li>
-            <li><a href="#">المشروبات والعصائر</a></li>
-            <li><a href="#">المكملات الغذائية وتقوية المناعة</a></li>
-            <li><a href="#">الإفطار و السانك و البذوبر</a></li>
 
 
-
-        </ul>
-       
-    </div>
-
-
-
-
+    <script src="js/main.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/cart.js"></script>
     
 </body>
 </html>

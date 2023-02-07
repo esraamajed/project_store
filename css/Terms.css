@@ -15,19 +15,6 @@ p{
     margin-bottom: 0 !important;
 }
 
-header div#top-nav{
-    padding: 12px 0 ;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-
-}
-
-#page-title span{
-    color: var(--mainColor);
-}
-
-#page-title .acount{
-    color: #4F4F4F;
-}
 
  .line{
     flex-grow: 1;
@@ -108,162 +95,6 @@ header div#top-nav{
 
 
 
-#top-nav .sign  span{
-    color: var(--mainColor);
-}
-
-#search-nav{
-       padding: 12px 0;
-}
-
-
-#search-nav .imag-heart{
-    padding: 0 16px;
-}
-
-
-#search-nav input{
-     padding: 12px 8px 8px 143px;
-     border-radius: 8px;
-     border: 0;
-     background: #F2F6ED;
-     border-radius: 10px;
-}
-
-#search-nav input:focus{
-    outline-color: transparent;
-}
-
-#search-nav button{
-    position: absolute;
-    top: 46%;
-    left: 68px;
-    transform: translate(-50%, -50%);
-    width: 117px;
-    height: 44px;
-    background-color: var(--mainColor);
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 7px;
-}
-
-#search-nav .search-group{
-    position: relative;
-}
-
-#search-nav .total-price{
-    color: var(--mainColor);
-}
-
-@media (max-width: 768px) {
-
-    /* #search-nav{
-        position: relative;
-    }
-    .search-form{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-    } */
-
-
-    #search-nav .total-price{
-        display: none;
-
-    }
-    #search-nav .imag-heart{
-        display: none;
-    }
-    /* #search-nav .discount{
-        position: relative;
-    }
-    #search-nav .discount-price img {
-        position: absolute;
-        left: 63px;
-        top: 0;
-    }
-
-    #search-nav .discount-price .search{
-        position: absolute;
-        top: 0;
-        left: 35px;
-    } */
-
-    #page-title{
-        margin: 30px 0 !important;
-    }
-
-    
-    }
-
-
-#search-nav .discount-price{
-    position: relative;
-}
-
-#search-nav .discount {
-    position: absolute;
-    top: -19px;
-    left: 70px;
-    height: 22px;
-    width: 22px;
-    border-radius: 50%;
-    background: #EB5757; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-   
-
-        
-}
-
-
-#search-nav .search-group input{
-    position: relative;
-    padding-right: 34px;
-    font-size: 16px;
-    color: #4F4F4F;
-}
-
-#search-nav .search-group .search{
-    
-    position: absolute;
-    top: 4px;
-    right: 0;
-    padding: 10px;
-    font-size: 16px;
-}
-
-
-
-
-#navbar{
-    padding: 12px 0;
-    display: none;
-    
-
-}
-
-#navbar .content {
-    font-size: 12px;
-    list-style: none;
-    
-
-}
-
-#navbar .content li{
-    padding: 0px 10px;
-
-} 
-#navbar .content li .active{
-    background-color: var(--mainColor);
-    color: #FFFFFF;
-    padding: 10px 10px;
-
-}
 
 
 #banner{
@@ -438,93 +269,14 @@ color: #333333;
 
 
 
-footer{
-    background: #F2F2F2;
-    padding: 30px 0;
-}
-footer ul {
-    list-style: none;
-}
-footer ul a {
-    text-decoration: none;
-    color: #333333;
-    font-size: 13px;
-}
-footer ul a:hover {
-    color: var(--mainColor);
-}
-
-
-.footer-title{
-    color: var(--mainColor);
-}
-
-footer .about .icon{
-    display: flex;
-}
-
-footer .about p {
-    padding-top: 12px;
-    color: #333333;
-}
-footer .about .icon{
-    padding: 0;
-}
-footer .about .icon a{
-    color: #000000;
-} 
-
-footer .about .icon li {
-    padding: 5px 5px 15px 41px;
-    list-style: none;
-
-}
-
-footer li{
-    margin-bottom: 20px;
-}
 
 
 
-#mobile-nav{
-    background: #FFFFFF;    
-    width: 100%;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    bottom:0 ;
-    left: 0;
-    box-shadow: 0px -7px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 15px 15px 0px 0px;
-    z-index: 99;
-}
 
-#mobile-catrgories{
-    background: #FFFFFF;
-    border-radius: 20px 20px 0px 0px;
-        padding: 30px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 98;
-    transform: translateY(100%);
-    transition: 1s;
-    display: none;
-}
 
-@media (min-width:992px) {
-    #navbar{
-        display: block;
-    }
 
-    #mobile-catrgories{
-        display: none;
-    }
-    #mobile-nav{
-        display: none;
-    }
+
+
 
     #products .formations .formation .bg {
         position: absolute;
@@ -540,7 +292,6 @@ footer li{
 
    
     
-}
 
 
    

@@ -8,7 +8,7 @@
 p{
     margin-bottom: 0 !important;
 }
-@media(min-width:769px){
+@media (min-width:769px){
     
 .new_padding {
     padding: 50px 140px;
@@ -96,48 +96,15 @@ p{
 
 
 
-#top-nav .sign  span{
-    color: var(--mainColor);
-}
 
-
-
-
-
-
-/* 
-    #search-nav{
-        position: relative;
-    }
-    .search-form{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-    } */
-
- 
-    /* #search-nav .discount{
-        position: relative;
-    }
-    #search-nav .discount-price img {
-        position: absolute;
-        left: 63px;
-        top: 0;
-    }
-
-    #search-nav .discount-price .search{
-        position: absolute;
-        top: 0;
-        left: 35px;
-    } */
    
-    .shoping-cart{
-        padding-top: 0 !important;
+
+    #cart .cap {
+        visibility: hidden;
     }
-    #cart .detail {
-         visibility: hidden;
-    }
+   
+
+   
 
 
 #banner{
@@ -313,7 +280,6 @@ color: #333333;
 
 
 
-
     #products .formations .formation .bg {
         position: absolute;
         background: #41464b0d;
@@ -365,21 +331,21 @@ color: #333333;
         color: var(--mainColor);
     }
 
-
-#cart .point {
-    background: #EB5757;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    position: absolute;
-    right: 182px;
-    top: 20px;
-
+#cart .detail p {
+    padding-left: 30px;
 }
 
+
+#cart .detail span {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #EB5757;  
+    color: white;     
+     text-align: center;
+        margin-right: -31px;
+        margin-left: 20px;
+}
 
 #cart .detail img {
     background: #E0E0E0;
@@ -390,9 +356,52 @@ color: #333333;
 }
 
 
+ #cart .ring{
+    background: #F9FBF7;
+ }
 
+#cart .ring:hover{
+    background-color: #EFF4E8;}
+
+    #cart .point {
+        background: #EB5757;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        position: absolute;
+        right: 182px;
+        top: 20px;
+    
+    }
+    
+    #cart .text-end img {
+        background: #E0E0E0;
+            width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 5px;
 
     
+    }
+    #cart .text-end button {
+        border: none;
+    }
 
 
-    
+
+    /* #cart .text-end .start{
+        background-color: #D9D9D9;
+        border-radius: 24px;
+        width: 30px;
+    } */
+
+    /* #cart .text-end .start{
+        background-color: red;
+        border-radius: 24px;
+        width: 30px;
+    } */
+
+  

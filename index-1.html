@@ -26,11 +26,13 @@
                          </div>
                     </div>
                     <div class="sign">
-                        <a href="https://">
+                       
                             <img src="images/user.svg" alt="">
 
-                        </a>
-                        <span>تسجيل الدخول </span>
+                
+                        <span >  تسجيل الدخول </span>
+
+
                     </div>
 
                 </div>
@@ -40,36 +42,89 @@
 
         <div id="search-nav" class="py-0">
             <div class="container">
-                <div class="d-flex align-items-center justify-content-between search-form">
+                <div class="d-flex align-items-center justify-content-between ">
                     <div>
                         <img src="images/logo.png" alt="" height="85px" >
                     </div>
     
-                    <div class="flex-grow-1 px-0 px-md-4 d-md-block d-md-block   ">
+                    <div class="flex-grow-1 px-0 px-md-4 d-md-block d-md-block    ">
                         <form action="">
                            <div class="search-group d-none d-md-block">
                             <input type="text"   class="form-control " placeholder="أبحث عن منتجك  "  class="w-100">
                             <span class="search"><i class="fa-solid fa-magnifying-glass"></i></span>
                             <button type="submit" >بحث</button>
+                            <img src="images/points3.svg " class="d-lg-none" alt="">
                            </div>
                         </form>
                     </div>
     
-                    <div class="d-flex">
+                    <div class=" d-flex" >
                         <a href="#"><img src="images/heart.svg" class="imag-heart" alt=""></a>
+                        
                         <div class="discount-price" >
                             <span class="discount">3</span>
-                            <span class="search d-flex d-md-none"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <span><img src="images/3point.svg d-flex d-md-none" alt=""></span>
+                       
                             <a href="#"><img src="images/lock.svg" alt=""></a>
                             <span class="total-price">25  ر.س</span>
+                            
                         </div>
+                        <div class="point-serch">
+                            <span class="serch">
+                                <img src="images/search3.svg" alt="">
+                            </span>
+                            
+                            <span class="points"><img src="images/3point.svg  " alt=""></span>
+                         </div>
+
                     </div>
                 </div>
                
             </div>
         </div>
+        <div class="sidebar d-lg-none d-none ">
+            <div class="d-flex justify-content-end mb-3 ">
+                <img class="exit2 " src="images/exit.svg" alt="">
+                </div>
+            <div class="d-flex ">
+                <img src="images/g14.svg" alt="">
+                <p class="px-3 text-dark">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد </p>
+            </div>
+            <div class="mt-4 mb-3 px-2">
+                <img src="images/Vector.svg" alt="">
 
+                <span class="text-dark">example@gmail.com</span>
+            </div>
+           <div class="px-2">
+            <img src="images/phone.svg" alt="">
+            <span class="text-dark"> +96659721649</span>
+           </div>
+           <ul class="d-flex icon w-100 justify-content-center ">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+
+         </ul>
+
+        </div>
+        <div class="serch-nav py-0 d-none " id="search-nav" >
+            <div class="container">
+                <div class="">
+                   
+                    <div class=" ">
+                        <form action="">
+                           <div class="search-group d-block d-lg-none">
+                            <input type="text"   class="form-control " placeholder="أبحث عن منتجك  "  class="w-100">
+                            <span class="search"><i class="fa-solid fa-magnifying-glass"></i></span>
+                           </div>
+                        </form>
+                    </div>
+    
+                    
+                </div>
+               
+            </div>
+        </div>
+        
         <div id="navbar">
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container p-0">
@@ -99,7 +154,7 @@
                               <li><hr class="dropdown-divider"></li>
                               <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                          </li> 
+                          </li>
                       <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="#">المجمدات</a>
                       </li>
@@ -151,12 +206,12 @@
         <div class="container">
             <div class="section-title d-flex justify-content-between">
                 <p>منتجات    جديدة</p>
-                <a class="more-btn" href="#">المزيد</a>
+                <a class="more-btn" href="products.html">المزيد</a>
             </div>
             <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5">
                 <div class="col mb-5  mb-lg-2">
                     <div class="contant product">
-                        <img src="images/5.svg " class="img-fluid" alt="">
+                        <a href="products_details.html"><img src="images/5.svg " class="img-fluid" alt=""></a>
                         <div class="product-details">
                             <p class="detail">هنا سيكون أسم المنتج وممكن يكون سطران </p>
                             <span class="price">100 ر.س</span>
@@ -524,7 +579,7 @@
                 <div class="col-12 col-md-4 opinions">
                     <div class="opinion-card">
                         <div class="d-flex mb-3">        
-                            <img src="images/Ellipse 5.svg" alt="">
+                            <img src="images/Ellipse 5.svg " alt="">
                             <div class="content">
                                 <h6>خديجة الحربي</h6>
                                 <p>الرياض</p>
@@ -547,66 +602,69 @@
                 </div>
             </div>
         </div>
+        
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="row gx-0 gx-md-5 d-flex justify-content-between ">
-                <div class="col-12 col-md-6 col-lg-3  about">
-                    <img src="images/logo.png " height=60px alt="">
-                    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، </p>
-                    <ul class="icon">
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <p class="footer-title">بقالة</p>
-                    <ul class="p-0">
-                        <li><a href="#">بهارات وتوابل</a></li>
-                        <li><a href="#">الزيوت</a></li>
-                        <li><a href="#">الأرز والمكرونةوالدقيق</a></li>
-                        <li><a href="#">المعلبات</a></li>
-                        <li><a href="#">القهوة والشاي</a></li>
-                        <li><a href="#">العسل</a></li>
+
+<footer>
+
+    <div class="container">
+        <div class="row gx-0 gx-md-5 d-flex justify-content-between ">
+            <div class="col-12 col-md-6 col-lg-3  about">
+                <img src="images/logo.png " height=60px alt="">
+                <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، </p>
+                <ul class="icon">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <p class="footer-title">بقالة</p>
+                <ul class="p-0">
+                    <li><a href="#">بهارات وتوابل</a></li>
+                    <li><a href="#">الزيوت</a></li>
+                    <li><a href="#">الأرز والمكرونةوالدقيق</a></li>
+                    <li><a href="#">المعلبات</a></li>
+                    <li><a href="#">القهوة والشاي</a></li>
+                    <li><a href="#">العسل</a></li>
 
 
-                    </ul>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <p class="footer-title">روابط سريعة</p>
-                    <ul class="p-0">
-                        <li><a href="#">سياسة الاستبدال والارجاع</a></li>
-                        <li><a href="#">سياسة الخصوصية</a></li>
-                        <li><a href="#">الشروط والاحكام</a></li>
-                    
-
-
-                    </ul>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <p class="footer-title">تواصل معنا</p>
-                    <ul class="p-0 ">
-                        <li><a href="#"><img src="images/Vector.svg"  alt="">example@gmail.com</a></li>
-                        <li><a href="#"><img src="images/phone.svg  " class="my-3"  alt="">+96659721649</a></li>
-
-                        <ul class="d-flex p-0  "  >
-                           <li><img src="images/mada.svg" alt=""></li> 
-                           <li><img src="images/mastercard.svg" alt=""></li> 
-
-                            <li><img src="images/visa.svg" alt=""></li>
-
-                        </ul>
-                    </ul>
-                </div>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <p class="footer-title">روابط سريعة</p>
+                <ul class="p-0">
+                    <li><a href="#">سياسة الاستبدال والارجاع</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                    <li><a href="#">الشروط والاحكام</a></li>
                 
 
+
+                </ul>
             </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <p class="footer-title">تواصل معنا</p>
+                <ul class="p-0 ">
+                    <li><a href="#"><img src="images/Vector.svg"  alt="">example@gmail.com</a></li>
+                    <li><a href="#"><img src="images/phone.svg  " class="my-3"  alt="">+96659721649</a></li>
+
+                    <ul class="d-flex p-0  "  >
+                       <li><img src="images/mada.svg" alt=""></li> 
+                       <li><img src="images/mastercard.svg" alt=""></li> 
+
+                        <li><img src="images/visa.svg" alt=""></li>
+
+                    </ul>
+                </ul>
+            </div>
+            
 
         </div>
-    </footer>
 
+    </div>
+
+</footer>
 
 
 
@@ -631,12 +689,19 @@
         <div>
             <a href="#">الرئيسية</a>
         </div>
-        <div>
-            <a >فئات المنتجات</a>
+        <div class="btn-products">
+            <a href="#" >فئات المنتجات</a>
         </div>
-        <div>
-            <a href="#">تسجيل الدخول</a>
+        <div class="btn-login">
+            <i class="fa-regular fa-user"></i>
+            <a href="#">تسجيل الدخول  </a>
         </div>
+  
+  
+ 
+  
+
+
     </div>
 
     <div id="mobile-catrgories">
@@ -655,9 +720,87 @@
     </div>
 
 
+    <div class="login-form d-none" >    
+        <form action="log.html" method="post">
+            <div class="d-flex justify-content-end ">
+                <img class="exit " src="images/exit.svg" alt="">
+                </div>
 
+            <div class="avatar">
+                <img src="images/2user.svg" alt="">
+
+            </div>
+            <h4 class="modal-title">تسجيل الدخول</h4>
+            <div class="form-group">
+                <label for="" class="mb-2">  البريد الإلكتروني</label>
+
+                <input type="email" class="form-control" placeholder="أدخل عنوان بريدك الإلكرتوني " required="required">
+            </div>
+
+            <div class="form-group">
+                <label for="" class="mb-2"> كلمة المرور</label>
+
+                <input type="password" class="form-control" placeholder="أدخل  كلمة المرور " required="required">
+            </div>
+            <div class="form-group small clearfix">
+                <label class="checkbox-inline"><input type="checkbox"> Remember me</label>
+                <a href="#" class="forgot-link">?Forgot Password</a>
+            </div> 
+            <a href="log.htmم"><input type="submit" class="btn btn-primary btn-block btn-lg" value="Login"></a>               
+        </form>			
+        <div class="text-center small">Don't have an account? <a href="#">Sign up</a></div>
+    </div>
+
+    <nav class="nav-mobile-categories show d-none">
+        <div class="container">
+            <div class="d-flex justify-content-end ">
+            <img class="exitnav " src="images/exit.svg" alt="">
+            </div>
+          <ul class="mobile-ul">
+            <li class="d-flex align-items-center justify-content-between"><a href="#">فئات المنتجات</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle dropdown-toggle1 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  جميع  التصنيفات
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">بقالة</a></li>
+                  <li><a class="dropdown-item" href="#"> المشروبات والعصائر</a></li>
+                  <li><a class="dropdown-item" href="#">المكملات الغذائية وتقوية المناعة</a></li>
+                  <li><a class="dropdown-item" href="#">الاأجبان والحليب</a></li>
+                  <li><a class="dropdown-item" href="#">  المنظفات المنزالية</a></li>
+                  <li><a class="dropdown-item" href="#">المكملات الغذائية وتقوية المناعة</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown text-black" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                  بقالة
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">البهارات و التوابل</a></li>
+                  <li><a class="dropdown-item" href="#"> الزيوت والخل</a></li>
+                  <li><a class="dropdown-item" href="#"> الأرز والمكرونة و الدقيق </a></li> 
+                  <li><a class="dropdown-item" href="#"> العسل </a></li>
+                  <li><a class="dropdown-item" href="#"> القهوة والشاي </a></li>
+                  <li><a class="dropdown-item" href="#">   المعلبات  </a></li>
+                </ul>
+              </li>
+            <li><a href="#">المجمدات</a></li>
+            <li><a href="#">المشروبات والعصائر</a></li>
+            <li><a href="#">المكملات الغذائية وتقوية المناعة</a></li>
+            <li><a href="#">الإفطار و السانك و البذوبر</a></li>
+          </ul>
+        </div>
+        
+            
+    </nav>
+   
+
+    <script src="js/main.js"></script>
 
     <script src="js/bootstrap.bundle.js"></script>
+
+   
     
 </body>
 </html>

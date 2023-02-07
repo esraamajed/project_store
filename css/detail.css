@@ -648,3 +648,16 @@ color: var(--mainColor);
 #cart .print button img {
     padding-left: 10px;
 }
+
+#cart .cart-details {
+    border-bottom: 1px solid red;
+}
+
+#cart .tabel{
+    border-bottom: 1px solid red;
+}
+
+#cart .save {
+    background-color: var(--mainColor);
+    color: white;
+}

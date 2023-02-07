@@ -46,7 +46,7 @@ header div#top-nav{
 
 #search-nav button{
     position: absolute;
-    top: 46%;
+    top: 50%;
     left: 68px;
     transform: translate(-50%, -50%);
     width: 117px;
@@ -56,6 +56,7 @@ header div#top-nav{
     text-align: center;
     font-size: 18px;
     border-radius: 7px;
+    border: none;
 }
 
 #search-nav .search-group{
@@ -65,29 +66,44 @@ header div#top-nav{
 #search-nav .total-price{
     color: var(--mainColor);
 }
+#search-nav .search-group input{
+    position: relative;
+    padding-right: 34px;
+    font-size: 16px;
+    color: #4F4F4F;
+    border: 1px solid var(--mainColor);
+  
 
-@media (max-width: 500px) {
+
+
+
+}
+@media (max-width: 768px) {
 
     #search-nav{
         position: relative;
     }
-    .search-form{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
+    
+    
+    .search-nav {
+        position: fixed;
     }
-
     #search-nav .total-price{
         display: none;
 
     }
-    #search-nav .imag-heart{
+    .point-serch span{
+       margin: 10px;
+       padding: 0 0 0 20px;
+    }
+    .imag-heart{
         display: none;
+
     }
     #search-nav .discount{
         position: relative;
     }
+
     #search-nav .discount-price img {
         position: absolute;
         left: 63px;
@@ -99,6 +115,12 @@ header div#top-nav{
         top: 0;
         left: 35px;
     }
+   
+    
+    
+   
+    
+    
 
     
     }
@@ -131,6 +153,10 @@ header div#top-nav{
     padding-right: 34px;
     font-size: 16px;
     color: #4F4F4F;
+
+
+
+
 }
 
 #search-nav .search-group .search{
@@ -143,7 +169,12 @@ header div#top-nav{
 }
 
 
-
+#page-title{
+margin-top: 20px;
+}
+#page-title span{
+    color: var(--mainColor);
+}
 
 #navbar{
     display: none;
@@ -176,7 +207,7 @@ header div#top-nav{
 
 } 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 5px !important;
+    padding: 8px !important;
 }
 #navbar .content li a{
     background-color: var(--mainColor);
@@ -188,11 +219,17 @@ header div#top-nav{
 .navbar-expand-lg  .nav-link.active{
     color: white;
 }
-
+.navbar-nav{
+    width: 100%;
+}
+/* .nav-item{
+    padding: 0 8px;
+} */
 .navbar-nav .nav-link{
+    font-size: 15.4px;
     color: #333333;} 
 
- .navbar-nav .dropdown-toggle{
+ .navbar-nav .dropdown-toggle1{
     background-color: var(--mainColor);
 }
 .navbar-nav .dropdown-toggle li{
@@ -454,6 +491,24 @@ footer .about .icon li {
     color: #333333;
 
 }
+.sidebar{
+    position: relative;
+}
+.sidebar .icon li {
+    padding: 5px 5px 15px 41px;
+    list-style: none;
+    color: #333333;
+  
+    
+
+}
+.sidebar ul{
+ position: absolute;
+ bottom: 50px; 
+}
+.sidebar .icon a{
+    color: #333333;} 
+
 footer li a{
     font-size: 16px;
 }
@@ -491,6 +546,108 @@ footer li{
     transition: 1s;
     display: none;
 }
+body {
+    color: #999;
+    /* background: #f5f5f5; */
+    font-family: 'Varela Round', sans-serif;
+}
+.form-control {
+    box-shadow: none;
+    border-color: #ddd;
+}
+.form-control:focus {
+    border-color: #4aba70; 
+}
+.login-form {
+    /* width: 350px;
+    margin: 0 auto;
+    padding: 30px 0; */
+}
+.login-form form {
+    color: #434343;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.login-form .avatar {
+    color: #fff;
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 9;
+    background: rgba(91, 142, 25, 0.1);
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.login-form .avatar img
+{
+    font-size: 62px;
+}
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+.login-form .form-control, .login-form .btn {
+    min-height: 40px;
+    border-radius: 2px; 
+    transition: all 0.5s;
+}
+.login-form .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.login-form .btn {
+    background: #5B8E19;
+        border: none;
+    line-height: normal;
+}
+.login-form .btn:hover, .login-form .btn:focus {
+    background: #5B8E19;
+}
+.login-form .checkbox-inline {
+    float: left;
+}
+.login-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+.login-form .forgot-link {
+    float: right;
+}
+.login-form .small {
+    font-size: 13px;
+}
+.login-form a {
+    color: var(--mainColor);
+    text-decoration: none;
+}
+
+#mobile-nav a{
+    text-decoration: none;
+    color: var(--mainColor) ;
+}
+#mobile-nav a:hover{
+    border: 1px solid #5B8E19;
+}
+
+@media (min-width:769px) {
+    .point-serch{
+        display: none;
+    }
+}
 
 @media (min-width:992px) {
     #navbar{
@@ -503,6 +660,10 @@ footer li{
     #mobile-nav{
         display: none;
     }
+    .show{
+        display: none;
+    }
+
 
     #products .formations .formation .bg {
         position: absolute;
@@ -519,6 +680,86 @@ footer li{
    
     
 }
+ .active{
+    display: block !important ;
+}
+
+ .display{
+    display: none !important ;
+}
+.login-form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.show a{
+    width: 100%;
+}
+.show {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #434343;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.show ul a:hover{
+color: white;
+}
+.show li:hover{
+    background-color: var(--mainColor);
+    border-radius: 10px;
+}
 
 
 
+
+
+nav.nav-mobile-categories.show {
+    transform: translateY(0%);
+}
+.nav-mobile-categories ul {
+    list-style: none;
+    padding: 0 15px;
+    border-radius: 4px;}
+
+    .nav-mobile-categories ul li:first-child {
+        text-align: right;
+        padding-right: 0;}
+
+        
+        .nav-mobile-categories ul li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #333333;
+            font-weight: bold;
+        }
+
+
+        .nav-mobile-categories ul li.active, .nav-mobile-categories ul li.active a {
+            background-color: var(--PRIMARY-COLOR);
+            color: #EFF4E8;
+        }
+
+
+        .nav-mobile-categories ul li {
+            padding: 15px 10px;}
+            
+            .sidebar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 70%;
+                height: 100vh;
+                z-index: 1;
+                padding: 50px 20px;
+                background-color: white;
+                box-shadow: #000000;
+                
+
+            }
